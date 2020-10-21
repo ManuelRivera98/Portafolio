@@ -4,9 +4,10 @@ import { GoMarkGithub } from 'react-icons/go';
 import { MdPets } from 'react-icons/md';
 import {
   FaDumbbell, FaHtml5, FaNpm, FaGitAlt, FaLinkedin,
+  FaNode,
 } from 'react-icons/fa';
 import { GiWorld } from 'react-icons/gi';
-import { DiJavascript1 } from 'react-icons/di';
+import { DiJavascript1, DiDjango, DiPython } from 'react-icons/di';
 import { GrReactjs } from 'react-icons/gr';
 
 const data = {
@@ -70,10 +71,13 @@ const data = {
         Icon: DiJavascript1, color: '#ead54c', name: 'Icon JavaScript', id: 3,
       },
       {
+        Icon: FaNode, color: '#003E1F', name: 'Icon Node Js', id: 8,
+      },
+      {
         Icon: GrReactjs, color: '#5bcbea', name: 'Icon React Js', id: 4,
       },
       {
-        Icon: FaNpm, color: '#c83b35', name: 'Icon Npm', id: 5,
+        Icon: DiPython, color: '#00507A', name: 'Icon Python', id: 5,
       },
       {
         Icon: FaGitAlt, color: '#eb4f32', name: 'Icon Git', id: 6,
@@ -81,25 +85,31 @@ const data = {
       {
         Icon: FcLinux, color: '', name: 'Icon Linux Os', id: 7,
       },
+      {
+        Icon: FaNpm, color: '#c83b35', name: 'Icon Npm', id: 9,
+      },
+      {
+        Icon: DiDjango, color: '#003E1F', name: 'Icon Django', id: 10,
+      },
     ],
     List: [
       {
         id: 1,
-        title: 'Lenguajes',
-        items: 'Js, Html5, Css3, Python, Sql',
-        description: 'Lenguajes esenciales para el desarrollo front-end, Html para el marcado, Css para darle ese toque personal y JavaScript para hacer nuestras aplicaciones dinámicas, Python para trabajar en el backend, Sql para realizar consultas a bases de datos relacionales.',
+        title: 'Lenguajes / Entornos',
+        items: 'Js, Html5, Css3, Python, Sql, NodeJs',
+        description: 'Lenguajes, entornos esenciales y más populares para el desarrollo web.',
       },
       {
         id: 3,
         title: 'Frameworks / Bibliotecas',
-        items: 'React Js, Redux, React Router, Next Js, Django',
-        description: 'React para crear interfaces de usuario, Redux para manejar el estado de nuestra aplicación de manera predecible, React Router para crear nuestras rutas y seguir trabajando en SPA, Next para el performance y SEO con SSR y SSG, Django junto django-rest para crear nuestros endpoints.',
+        items: 'React Js, Redux, React Router, Next Js, Express',
+        description: 'Tecnologías que ayudan a reducir el tiempo de desarrollo  y que a su vez el código sea mas escalable.',
       },
       {
         id: 4,
         title: 'Bases de datos',
-        items: 'MySql, PostgreSql',
-        description: 'Nos permiten almacenar, gestionar y buscar información de manera rápida y eficiente para después ser utilizada.',
+        items: 'MySql, PostgreSql, MongoDB',
+        description: 'Permiten almacenar, gestionar y buscar información de manera rápida y eficiente para después ser utilizada.',
       },
       {
         id: 5,
@@ -110,8 +120,8 @@ const data = {
       {
         id: 6,
         title: 'Otras Herramientas',
-        items: 'Webpack, Babel, Css Grid Layout, Flexbox, Context Api, Responsive Design, Docker',
-        description: 'Webpack para empaquetar nuestros módulos Js, html, css, imágenes, etc. Babel para que nuestro código sea compatible en todos los navegadores, Css Grid y Flexbox para construir Layouts, Context Api para manejar un estado global en aplicaciones pequeñas y R. Design para que nuestra app sea adaptable a cualquier tamaño de pantalla.',
+        items: 'Webpack, Babel, Css Grid Layout, Flexbox, Context Api, Responsive Design, Docker, css in Js, styles-components.',
+        description: 'Herramientas y complementos que permiten aumentar la eficiencia del desarrollador y que su código sea accesible en cualquier lugar de la web.',
       },
     ],
   },
